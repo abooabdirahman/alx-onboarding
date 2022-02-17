@@ -1,0 +1,23 @@
+BEGIN
+
+INITIALISE var num1;
+INITIALISE var num2;
+INITIALISE var num3;
+
+IF num1 > num2 THEN
+Declare variable count;
+    INITIALISE count = num1
+    num1 = num2
+    num2 = temp
+IF num1 > num3 THEN
+    INITIALISE count = num1
+    num1 = num3
+    num3 = count
+IF num2 > num3 THEN
+    INITIALISE count = num2
+    num2 = num3
+    num3 = count
+DISPLAY "Sorted in ascending order"
+DISPLAY num1, num2, num3
+
+STOP
