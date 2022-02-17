@@ -1,0 +1,15 @@
+BEGIN
+ 
+NUMBER root=1, counter=0,num
+ 
+OUTPUT "Enter a number for calculate the root"
+INPUT num
+ 
+WHILE sayac < sayi+1 THEN
+   i=i+1
+   root=(num/root+root)/2
+END WHILE
+ 
+OUTPUT root
+ 
+END
