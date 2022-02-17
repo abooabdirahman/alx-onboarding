@@ -1,0 +1,12 @@
+BEGIN
+
+INITIALISE variable sum;
+WHILE TRUE
+    INITIALISE variable num
+    IF num >= 0 THEN
+       sum = sum + num
+    ELSE
+        CONTINUE
+END LOOP
+
+STOP
